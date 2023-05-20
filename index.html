@@ -1,0 +1,118 @@
+
+		<html>
+<body><h1 style="background-color:#B2C8DF; color: white;"><div style="text-align: center;"><p style="font-size: 110px; font-family:Comic Sans MS, sans-serif;">
+<span lang="hi">देख</span><span lang="en">bhaal</span></p></style>
+<style>
+		/* Increase the size of buttons */
+		button.my-button {
+			padding: 24px 24px;
+			font-size: 200px;
+		}
+	</style>
+
+
+
+
+
+<button onclick="showContent('home')id="defaultOpen" button style="width: 150px; height: 50px;font-size: 24px;">Home</button>
+	<button onclick="showContent('contact')id="defaultOpen" button style="width: 150px; height: 50px;font-size: 24px;">Contact</button>
+	<button onclick="showContent('about')id="defaultOpen" button style="width: 150px; height: 50px;font-size: 24px;">About</button>
+	<button onclick="showContent('comments')id="defaultOpen" button style="width: 150px; height: 50px;font-size: 24px;">My story</button>
+
+<hr size="3" color="black" width="75%">
+</h1>
+
+
+
+  <img src="1.png" height="600" width="1500">
+<h1>
+ <div id="contact" class="content active">
+
+<h6><p>Give to the poor, be generous to those in need,
+Nourish deep within yourself the virtuous seed,
+Water it with practice and strong it shall grow,
+To the needy kindness and compassion you should show,
+
+Give what you can, be it money, food or time,
+And give sincerely with your heart's rhythm and rhyme,
+Ease their burden even if you can only do it for a day,
+Bring colours to their life that is slowly turning grey,
+
+Nourish the virtues that dwell within your heart,
+Help give them hope and courage for a fresh new start,
+Give if you can, even if it is just a small portion of your pay,
+For survival for the less fortunate is a battle each day,
+
+Embrace compassion and kindness, embrace your humanity,
+Encourage others who can to donate to charity,
+Make a difference, even if it is to a boy or girl
+Nourish humanity, be the change you wish to see in the world,
+
+Daya Nandan </p>
+<img src="2.png" height="400" width="1500">
+<head>
+
+	<title>Charity Centers in India</title>
+</head>
+	<h3 style="background-color:#B2C8DF; color: white;"><div style="text-align: center;"><p style="font-size: 80px; font-family:Comic Sans MS, sans-serif;">Charity Centers in India</h3>
+
+	<ul>
+		<li><a href="http://www.giveindia.org/" style= "font-size:40px;">GiveIndia</a></li>
+		<li><a href="http://www.cry.org/"style= "font-size:40px;">CRY - Child Rights and You</a></li>
+		<li><a href="http://www.smilefoundationindia.org/"style= "font-size:40px;">Smile Foundation</a></li>
+		<li><a href="http://www.akshayapatra.org/"style= "font-size:40px;">The Akshaya Patra Foundation</a></li>
+		<li><a href="http://www.goonj.org/"style= "font-size:40px;">Goonj</a></li>
+		<li><a href="http://www.nanhikali.org/"style= "font-size:40px;">Nanhi Kali</a></li>
+		<li><a href="http://www.helpageindia.org/"style= "font-size:40px;">HelpAge India</a></li>
+		<li><a href="http://www.oxfamindia.org/"style= "font-size:40px;">Oxfam India</a></li>
+	</ul></p>
+</body>
+	</div>
+	<div id="home" class="content">
+<h6 style="background-color:#B2C8DF; color: black;"><div style="text-align: center;"><p style="font-size: 20px; font-family:Comic Sans MS, sans-serif;">
+
+
+	<div id="Comments" class="content">
+<h3>Comments</h3>
+    <form id="comment-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="comments-list">
+      <!-- Comments will be added dynamically here -->
+    </ul>
+  </div>
+
+  <script>
+    // Add event listener to form submit button
+    document.getElementById("comment-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form from reloading page
+
+      // Get form inputs
+      var name = document.getElementById("name").value;
+      var comment = document.getElementById("comment").value;
+
+      // Create new comment element and append to comments list
+      var newComment = document.createElement("li");
+      var commentText = document.createTextNode(name + ": " + comment);
+      newComment.appendChild(commentText);
+      document.getElementById("comments-list").appendChild(newComment);
+
+      // Reset form inputs
+      document.getElementById("name").value = "";
+      document.getElementById("Your Story").value = "";
+    });
+  </script>
+	</h6>
+</body>
+</html>
+<div class="content active">
+
+
+
+
+  </button>
+</div></h1></body></html>
